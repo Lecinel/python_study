@@ -11,13 +11,14 @@ elif l1[s1] == "-":
 elif l1[s1] == "*":
     answer = num1 * num2
 elif l1[s1] == "/":
-    answer = num1 / num2
+    answer = round(num1 / num2,2)
 else:
     print("뭔가 잘못되었습니다.")
 
 print("{0} {1} {2} = ?".format(num1,l1[s1],num2))
 
 uanswer = int(input(": "))
+print(answer)
 if answer == uanswer:
     print("정답입니다.")
 else:

@@ -55,6 +55,7 @@ for y in l1[s1]:
                 print("값이 0이 나왔습니다. 다시 실행해주세요.")
             else:
                 answer = round(num1 / num2,2)
+        
 print("{0} {1} {2} = ?".format(num1,l1[s1],num2))
 
 uanswer = float(input(": "))

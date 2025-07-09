@@ -20,7 +20,7 @@ else:
 
 print("{0} {1} {2} = ?".format(num1,l1[s1],num2))
 
-uanswer = int(input(": "))
+uanswer = float(input(": "))
 print(answer)
 if answer == uanswer:
     print("정답입니다.")

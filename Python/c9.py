@@ -11,7 +11,10 @@ elif l1[s1] == "-":
 elif l1[s1] == "*":
     answer = num1 * num2
 elif l1[s1] == "/":
-    answer = round(num1 / num2,2)
+    if num1 == 0 or num2 == 0:
+        print("값이 0이 나왔습니다. 다시 실행해주세요.")
+    else:
+        answer = round(num1 / num2,2)
 else:
     print("뭔가 잘못되었습니다.")
 
